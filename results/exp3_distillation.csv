@@ -1,0 +1,4 @@
+model,steps,latency_s
+SDXL-base (standard),30,5.902
+SDXL + LCM-LoRA,4,0.799
+SDXL + LCM-LoRA,8,1.336

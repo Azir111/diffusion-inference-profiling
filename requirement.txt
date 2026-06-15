@@ -1,0 +1,12 @@
+# Install torch separately with the CUDA build matching your GPU.
+# For RTX 50-series (Blackwell, sm_120):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+#
+# Then:
+#   pip install -r requirements.txt
+
+diffusers>=0.27.0
+transformers>=4.40.0
+accelerate>=0.30.0
+safetensors>=0.4.0
+matplotlib>=3.7.0
